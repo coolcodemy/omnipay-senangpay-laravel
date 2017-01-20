@@ -1,0 +1,26 @@
+{
+    "name": "coolcodemy/omnipay-senangpay-laravel",
+    "description": "SenangPay plugin using Omnipay for Laravel",
+    "type": "library",
+    "require": {
+        "omnipay/common": "~2.0",
+        "illuminate/support": "^5.2"
+    },
+    "require-dev": {
+        "omnipay/tests": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CoolCodeMY\\SenangPay\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Fikrizaman",
+            "email": "ahmadfikrizaman@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "version": "1.0.0"
+}
